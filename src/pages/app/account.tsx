@@ -14,7 +14,7 @@ import { useAuthContext } from "../../hooks/useAuthContext"
 import { WalletDetails } from "../../ui/Wallet/WalletDetails"
 import { BiFontSize } from "react-icons/bi"
 import Image from "next/image"
-import dashboard from "./dashboard.png"
+import dashboard from "./DASHBOARD.png"
 const AccountPage = () => {
   const { session, isLoading } = useAuthContext()
 
